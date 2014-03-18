@@ -1,0 +1,11 @@
+The script takes the input parameters as mentioned in the question. For running the script on the command prompt just type php and than the location of the file name. For ex: If you are working on xampp than you should go to the location by typing cd xampp/php from the directory in which you have installed your xampp.
+There is a parameter repository domain name that caters to git and bitbucket. If you type git than it will post the issue to git and if you type bitbucket it will post the issue to bitbucket.
+
+The script has been tested and the urls for the issuse posted to repositories are:
+
+Git Hub : https://api.github.com/repos/ravimathur15/test/issues where ravimathur15 is the user and test is the name of the repos.
+Bit Bucket :  https://bitbucket.org/api/1.0/repositories/Ravi_mathur/topshotracingrepo/issues where Ravi_mathur is the user and topshotracingrepo is the repository.
+
+The issues has been posted via curl and system function I have used to make the curl request.
+
+The script can be extended for as many repositiories to post the issues and is self explanatory by the means of commenting and uses OOP concepts. You can instantiate the class by making new objects. I have made one object of the class as new_issue to show how it works.
